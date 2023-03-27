@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomLinkedStack", "..\Cus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericLinkedQueue", "..\GenericLinkedQueue\GenericLinkedQueue.csproj", "{844DFDBC-7590-4C22-999E-1C09D072BBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InBuildLinkedList", "..\InBuildLinkedList\InBuildLinkedList.csproj", "{83D3A1C3-6C66-479C-9526-A3372D182BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InBuildLinkedList", "..\InBuildLinkedList\InBuildLinkedList.csproj", "{83D3A1C3-6C66-479C-9526-A3372D182BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InBuildStack", "..\InBuildStack\InBuildStack.csproj", "{658D4935-AA1E-4D45-8B47-4745FEC1CE9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{83D3A1C3-6C66-479C-9526-A3372D182BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D3A1C3-6C66-479C-9526-A3372D182BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D3A1C3-6C66-479C-9526-A3372D182BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658D4935-AA1E-4D45-8B47-4745FEC1CE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658D4935-AA1E-4D45-8B47-4745FEC1CE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658D4935-AA1E-4D45-8B47-4745FEC1CE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658D4935-AA1E-4D45-8B47-4745FEC1CE9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
