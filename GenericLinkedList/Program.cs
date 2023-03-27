@@ -19,7 +19,7 @@ namespace GenericLinkedList
                     customLinked.Add(40);
                     customLinked.Display();
                     break;
-                    Console.ReadKey();
+                    
             }
         }
     }
