@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CustomLinkedList
 {
-    internal class CustomLinked<T>
+    internal class CustomLinked<T> where T : IComparable<T>
     {
         public Node<T> head;
 
@@ -41,6 +41,38 @@ namespace CustomLinkedList
             {
                 Console.WriteLine(temp.data + " ");
                 temp = temp.next;
+            }
+
+         }
+
+
+
+        public void InsertInDescendingOrder(T value)
+        {
+            Node<T> newNode = new Node<T>(value);
+
+            // If the list is empty, insert the new node at the head
+            if (head == null)
+            {
+                head = newNode;
+                return;
+            }
+
+            // If the new node should be the new head, insert it at the beginning
+            if (value.CompareTo(head.data) > 0)
+            {
+                newNode.next = head;
+                head = newNode;
+                return;
+            }
+        }
+        public void DisplayList()
+        {
+            Node<T> current = head;
+            while (current != null)
+            {
+                Console.Write(current.data + " ");
+                current = current.next;
             }
         }
     }
